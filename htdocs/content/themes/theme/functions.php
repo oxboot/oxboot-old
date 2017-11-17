@@ -66,7 +66,7 @@ $theme = container();
  */
 $paths['theme'] = __DIR__.DS;
 $paths['theme.resources'] = __DIR__.DS.'resources'.DS;
-$paths['theme.admin'] = __DIR__.DS.'resources'.DS.'admin'.DS;
+$paths['theme.autoload'] = __DIR__.DS.'resources'.DS.'autoload'.DS;
 
 themosis_set_paths($paths);
 
@@ -191,11 +191,11 @@ $supports = new Themosis\Config\Support($theme['config.factory']->get('supports'
 $supports->make();
 
 /*
- * Theme admin files.
+ * Theme autoload files.
  * Autoload files in alphabetical order.
  */
 $loader = $theme['loader']->add([
-    themosis_path('theme.admin'),
+    themosis_path('theme.autoload'),
 ]);
 
 $loader->load();

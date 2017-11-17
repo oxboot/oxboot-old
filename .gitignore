@@ -6,6 +6,9 @@ Thumbs.db
 composer.lock
 vendor/
 
+### Node
+node_modules/
+
 ### IDE
 .idea/
 
@@ -20,6 +23,8 @@ cs_fixer*
 /htdocs/content/uploads/
 /htdocs/content/upgrade/
 
+### Core Theme
+/htdocs/content/themes/theme/dist/
 
 ### Environment Credentials
 .env
@@ -33,3 +38,4 @@ cs_fixer*
 
 ### Query Monitor Plugin Rules
 htdocs/content/db.php
+mix-manifest.json
