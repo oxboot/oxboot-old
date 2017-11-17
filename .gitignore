@@ -25,3 +25,11 @@ cs_fixer*
 .env
 .env.*
 !.env.local
+
+
+### Oxboot Rules
+/htdocs/content/plugins/*
+!/htdocs/content/plugins/.gitkeep
+
+### Query Monitor Plugin Rules
+htdocs/content/db.php
