@@ -3,10 +3,10 @@
 @section('content')
 
   @loop
-  {{ get_post_meta('custom-field-text') }}
   <h1>{{ Loop::title() }}</h1>
   @php(the_content())
-  {{ get_post_meta('custom-field-text') }}
+  <p>{{ Meta::get(Loop::id(), 'custom-field-text') }}</p>
+  <p>{{ Meta::get(Loop::id(), 'custom-field-textarea') }}</p>
   @endloop
 
 @endsection
