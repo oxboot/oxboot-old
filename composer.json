@@ -1,13 +1,18 @@
 {
-  "name": "themosis/themosis",
-  "description": "The Themosis framework. A WordPress framework.",
-  "keywords": ["themosis", "framework", "WordPress"],
+  "name": "oxboot/oxboot",
+  "description": "The Oxboot framework. A WordPress framework.",
+  "keywords": ["oxboot", "themosis", "framework", "WordPress"],
   "license": "GPL-2.0+",
   "authors": [
     {
       "name": "Julien Lambé",
       "email": "julien@themosis.com",
       "homepage": "http://www.themosis.com/"
+    },
+    {
+      "name": "Zorca orcinus",
+      "email": "vs@zorca.org",
+      "homepage": "https://zorca.org/"
     }
   ],
   "type": "project",
