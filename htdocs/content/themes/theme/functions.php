@@ -1,9 +1,10 @@
 <?php
 /*
- * Themosis Theme.
+ * Oxboot Core Theme.
  *
- * @author  Julien Lambé <julien@themosis.com>
- * @link 	http://www.themosis.com/
+ * @authors Julien Lambé <julien@themosis.com>, Zorca <vs@zorca.org>
+ * @link http://www.themosis.com/, https://oxboot.com/
+ *
  */
 
 /*----------------------------------------------------*/
