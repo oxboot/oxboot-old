@@ -20,11 +20,6 @@ Route::get('singular', [
     },
 ]);
 
-Route::get('woocommerce', function ()
-{
-    return view('woocommerce');
-});
-
 Route::get('home', function ()
 {
     return view('index');
