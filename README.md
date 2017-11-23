@@ -18,14 +18,26 @@ Oxboot framework is a tool to help you develop websites and web applications fas
 
 ## Requirements
 
-* PHP >= 5.6
+* PHP >= 5.6.4
 * Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 
 ## Installation
 
 1. Create a new project in a new folder for your project:
 
-  `composer create-project oxboot/oxboot your-project-folder-name dev-master`
+`composer create-project oxboot/oxboot your-project-folder-name dev-master`
+
+2. Copy `env.local` to `.env` file and update environment variables:
+  * `DB_NAME` - Database name
+  * `DB_USER` - Database user
+  * `DB_PASSWORD` - Database password
+  * `DB_HOST` - Database host
+  * `WP_HOME` - Full URL to WordPress home (http://example.com)
+  * `WP_SITEURL` - Full URL to WordPress including subdirectory (http://example.com/cms)
+
+3. Set your site vhost document root to `/path/to/site/htdocs/`
+
+4. Access WordPress admin at `http://example.com/cms/wp-admin`
 
 Development team
 ----------------
