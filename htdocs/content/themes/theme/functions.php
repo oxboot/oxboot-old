@@ -215,6 +215,11 @@ $widgetLoader->load();
  */
 $theme['action']->add('wp_head', 'themosis_theme_global_object');
 
+/*
+ * Woocommerce support.
+ */
+add_theme_support('woocommerce');
+
 /**
  * Stop editing. Happy development.
  */

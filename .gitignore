@@ -39,3 +39,6 @@ cs_fixer*
 ### Query Monitor Plugin Rules
 htdocs/content/db.php
 mix-manifest.json
+
+### JCH Optimize Plugin
+/htdocs/content/cache/
