@@ -20,6 +20,18 @@ Route::get('singular', [
     },
 ]);
 
+Route::get('singular', [
+    'product', function () {
+        return view('woocommerce.product');
+    },
+]);
+
+Route::get('postTypeArchive', [
+    'product', function () {
+        return view('woocommerce.archive');
+    },
+]);
+
 Route::get('home', function ()
 {
     return view('index');
