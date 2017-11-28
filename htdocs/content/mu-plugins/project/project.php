@@ -71,7 +71,7 @@ add_action('admin_notices', function () use ($vars) {
  */
 $paths[$vars['namespace']] = __DIR__.DS;
 $paths[$vars['namespace'].'.resources'] = __DIR__.DS.'resources'.DS;
-$paths[$vars['namespace'].'.admin'] = __DIR__.DS.'resources'.DS.'admin'.DS;
+$paths[$vars['namespace'].'.autoload'] = __DIR__.DS.'resources'.DS.'autoload'.DS;
 
 themosis_set_paths($paths);
 
@@ -131,11 +131,10 @@ container('action')->add('plugins_loaded', function () use ($vars) {
 	load_plugin_textdomain(PROJECT_TD, false, trailingslashit(dirname(plugin_basename(__FILE__))).'languages');
 
     /*
-     * Plugin admin files.
      * Autoload files in alphabetical order.
      */
     $loader = container('loader')->add([
-        themosis_path($vars['namespace'].'.admin'),
+        themosis_path($vars['namespace'].'.autoload'),
     ]);
 
     $loader->load();
