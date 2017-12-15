@@ -31,13 +31,19 @@ cs_fixer*
 .env.*
 !.env.local
 
-
 ### Oxboot Rules
 /htdocs/content/plugins/*
 !/htdocs/content/plugins/.gitkeep
 
 ### Query Monitor Plugin Rules
 htdocs/content/db.php
+
+### EasyEngine
+ee-config.php
+logs/
+
+### Laravel Mix
+mix.js.map
 mix-manifest.json
 
 ### JCH Optimize Plugin
