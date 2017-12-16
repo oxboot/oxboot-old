@@ -20,7 +20,7 @@ Route::get('singular', [
     },
 ]);
 
-Route::any('singular', [
+Route::get('singular', [
     'product', function () {
         return view('woocommerce.product');
     },
