@@ -10,7 +10,7 @@
   @endif
 
   @while (have_posts()) @php(the_post())
-  @php(the_content())
+    @php(the_content())
   @endwhile
 
   {!! get_the_posts_navigation() !!}

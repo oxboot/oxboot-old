@@ -10,6 +10,6 @@ return [
      * Since WordPress 4.7, templates can be defined for pages but
      * also on custom post types.
      */
-    'custom-template' => ['Custom template', ['custom-template']],
+    'custom-template' => ['Custom template', ['page']],
 
 ];

@@ -9,6 +9,10 @@
  *
  */
 
+Route::get('template', function () {
+    return view('templates.'.get_page_template_slug());
+});
+
 Route::get('page', function ()
 {
     return view('page');
